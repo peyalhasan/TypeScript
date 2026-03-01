@@ -3,4 +3,5 @@ const hello = 'hello';
 function sayHelloWorld(){
     return `${hello} world`
 }
-sayHelloWorld()
+const print = sayHelloWorld()
+console.log(print)
