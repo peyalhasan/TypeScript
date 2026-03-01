@@ -19,7 +19,7 @@ class CseStudent extends Student {
     getInfo() {
         console.log(this.roll);
         console.log(this.department);
-        console.log(this.name); // This is not accessable.... But js ignore this js will print it but TypeScript compilar will find an error. 
+        // console.log(this.name) // This is not accessable.... But js ignore this js will print it but TypeScript compilar will find an error. 
     }
 }
 let Peyal = new CseStudent("Peyal", 651256, ['Webdev', "Frontend"], 'CSE');
