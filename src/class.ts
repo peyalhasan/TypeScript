@@ -14,16 +14,16 @@ class Student {
 
 
 
-class CseStudent extends Student{
+class CseStudent extends Student {
     private department: string;
 
-    constructor(name: string, roll: number, couses: Array<string>, department: string){
+    constructor(name: string, roll: number, couses: Array<string>, department: string) {
         super(name, roll, couses);
         this.department = department;
     }
-    getInfo(){
-        console.log(this.roll);
-        console.log(this.department);
+    getInfo() {
+        // console.log(this.roll);
+        // console.log(this.department);
         // console.log(this.name) // This is not accessable.... But js ignore this js will print it but TypeScript compilar will find an error. 
     }
 }
@@ -31,3 +31,25 @@ class CseStudent extends Student{
 let Peyal = new CseStudent("Peyal", 651256, ['Webdev', "Frontend"], 'CSE')
 // console.log(Peyal)
 Peyal.getInfo()
+
+
+
+class User {
+    userName: string;
+    age: number;
+
+    constructor(userName: string, age: number) {
+        this.userName = userName;
+        this.age = age;
+    }
+
+    display():void {
+        console.log(`username:${this.userName}, age: ${this.age}`)
+    }
+}
+
+
+let user1 = new User("Anisul Islam", 23)
+user1.display()
+
+
