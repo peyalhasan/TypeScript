@@ -17,12 +17,25 @@ class CseStudent extends Student {
         this.department = department;
     }
     getInfo() {
-        console.log(this.roll);
-        console.log(this.department);
+        // console.log(this.roll);
+        // console.log(this.department);
         // console.log(this.name) // This is not accessable.... But js ignore this js will print it but TypeScript compilar will find an error. 
     }
 }
 let Peyal = new CseStudent("Peyal", 651256, ['Webdev', "Frontend"], 'CSE');
 // console.log(Peyal)
 Peyal.getInfo();
+class User {
+    userName;
+    age;
+    constructor(userName, age) {
+        this.userName = userName;
+        this.age = age;
+    }
+    display() {
+        console.log(`username:${this.userName}, age: ${this.age}`);
+    }
+}
+let user1 = new User("Anisul Islam", 23);
+user1.display();
 //# sourceMappingURL=class.js.map
