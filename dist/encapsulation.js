@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     userName;
     age;
@@ -23,6 +21,7 @@ class Student extends User {
 }
 let student1 = new User("Peyal", 22);
 student1.display('Peyal');
+export {};
 // student1.display()
 // console.log(student1)
 //# sourceMappingURL=encapsulation.js.map

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let users;
 users = [];
 let user1 = { userName: 'Anis', userId: 101 };
@@ -14,4 +12,5 @@ function dataFunction(data) {
     console.log(data);
 }
 dataFunction(12);
+export {};
 //# sourceMappingURL=object.js.map

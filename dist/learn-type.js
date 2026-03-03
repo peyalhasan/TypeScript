@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let count = 34;
 let name = "lws";
 let address = `${name} stays in BD`;
@@ -25,4 +23,5 @@ else {
 let str = "I created a string with any";
 let index = str.indexOf("a");
 console.log(index);
+export {};
 //# sourceMappingURL=learn-type.js.map

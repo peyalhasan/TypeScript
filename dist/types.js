@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const peayl = {
     id: 12342,
     name: "Peyal",
@@ -22,4 +20,5 @@ const newBook = {
     address: 'Banasree, Dhaka'
 };
 const peyals = 'LWS with saha';
+export {};
 //# sourceMappingURL=types.js.map

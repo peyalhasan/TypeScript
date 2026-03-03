@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const hm = {
     name: "H$M Naim",
     address: 'Dhaka',
@@ -20,4 +18,5 @@ const datas = {
     age: 12
 };
 console.log(datas);
+export {};
 //# sourceMappingURL=interface.js.map

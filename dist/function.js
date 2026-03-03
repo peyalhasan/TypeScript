@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function sum(a, b) {
     if (b) {
         return a + b;
@@ -8,4 +6,5 @@ function sum(a, b) {
 }
 sum(2, 5);
 sum(3);
+export {};
 //# sourceMappingURL=function.js.map

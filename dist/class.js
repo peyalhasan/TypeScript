@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Student {
     name;
     roll;
@@ -38,4 +36,5 @@ class User {
 }
 let user1 = new User("Anisul Islam", 23);
 user1.display();
+export {};
 //# sourceMappingURL=class.js.map

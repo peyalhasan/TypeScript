@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     userName;
     age;
@@ -22,4 +20,5 @@ class Student extends User {
 }
 let student1 = new Student(651256, 'CSE', "Peyal", 22);
 student1.display();
+export {};
 //# sourceMappingURL=abstruction.js.map

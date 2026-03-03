@@ -1,7 +1,5 @@
-"use strict";
 // Enum is a store where we can store our value it does not allow duplicate value. 
 // There are 3 types of Enum: numeric, string, hetergenous
-Object.defineProperty(exports, "__esModule", { value: true });
 var Status;
 (function (Status) {
     Status[Status["STARTED"] = 0] = "STARTED";
@@ -29,4 +27,5 @@ const dataSetValues = {
     [dataSet.POLICE]: ['kalam', 'Rofiq', 'Saki', 'Jony', 'Masud']
 };
 console.log(dataSetValues);
+export {};
 //# sourceMappingURL=enum.js.map
